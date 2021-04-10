@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML TALLER 4">
+  <ClassDiagramComponents>
+    <Class name="Ordenador" package="" visibility="public" xPosition="495.0" yPosition="99.0">
+      <Fields>
+        <Field name="Codigo" type="int" visibility="private"/>
+        <Field name="Precio" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Sobremesa" package="" visibility="public" xPosition="622.0" yPosition="322.0">
+      <Fields>
+        <Field name="tipo_Torre" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Portatil" package="" visibility="public" xPosition="365.0" yPosition="322.0">
+      <Fields>
+        <Field name="Peso" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Sobremesa" target="Ordenador"/>
+    <IsRelation name="is" source="Portatil" target="Ordenador"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

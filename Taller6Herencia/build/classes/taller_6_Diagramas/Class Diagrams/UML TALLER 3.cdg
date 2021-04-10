@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UML TALLER 3">
+  <ClassDiagramComponents>
+    <Class name="Persona" package="" visibility="public" xPosition="365.0" yPosition="22.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="primerApellido" type="String" visibility="private"/>
+        <Field name="segundoApellido" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Profesor" package="" visibility="public" xPosition="369.0" yPosition="234.0">
+      <Fields>
+        <Field name="ID" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="ProfesorInterino" package="" visibility="public" xPosition="369.0" yPosition="410.0">
+      <Fields>
+        <Field name="date" type="Object" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="ProfesorInterino" target="Profesor"/>
+    <IsRelation name="is" source="Profesor" target="Persona"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
